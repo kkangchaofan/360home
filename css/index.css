@@ -1,0 +1,210 @@
+/*
+* @Author: Administrator
+* @Date:   2018-03-21 10:31:11
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-03-23 14:53:20
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+header{
+	width: 100%;
+	height: 0.53rem;
+	background: #212121;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: #f6f6f6;                                        
+}
+.header_left{
+	width: 1.2rem;
+	height: 0.28rem;
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 0.2rem;
+}
+.header_left img{
+	display: block;
+}
+.header_right{
+	width: 0.26rem;
+	height: 0.16rem;
+	float: right;
+	margin: 0.19rem 0.19rem 0 0;
+}
+.header_right span{
+	display: block;
+	width: 100%;
+	height: 0.02rem;
+	background: #585858;
+	margin-bottom: 0.05rem;
+}
+.swiper-container {
+    width: 100%;
+    height: 5.63rem;
+}  
+.header_right span:last-child{
+	margin-bottom: 0;
+}
+.swiper-slide img{
+	width: 100%;
+	height: 5.65rem;
+}
+.box_img{
+	width: 100%;
+	height: auto;
+	margin-top: 0.01rem;
+	overflow: hidden;
+}
+.box_img li{
+	width: 100%;
+	height: 2.5rem;
+	border-bottom: 0.01rem solid #fff;
+}
+.box_img li a{
+	display: block;
+	width: 100%;
+	height: 2.5rem;
+}
+.box_img1{
+	background: url('../img/promo_n6p_meeting.jpg') no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+.box_img2{
+	background: url('../img/tmall720_400.jpg') no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+.box_img3{
+	background: url('../img/jd720_400.jpg') no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+.box_img4{
+	background: url('../img/promo_360os.jpg') no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+.box_img li a h1{
+	display: block;
+	font-size: 0.18rem;
+	color: #666;
+	text-align: center;
+	margin-top:	0.22rem;
+}
+.box_img li a h2{
+	font-size: 0.16rem;
+	color: #666;
+	text-align: center;
+	margin-top: 0.06rem;
+}
+.fuwu_box{
+	width: 3.6rem;
+	height: 1.52rem;
+	margin: 0.2rem auto 0;
+}
+.fuwu_box li{
+	width: 100%;
+	height: 0.37rem;
+	border-bottom: 0.01rem solid #ccc;
+}
+.fuwu_box li .left{
+	font-size: 0.14rem;
+	color: #666;
+	float: left;
+	line-height: 0.37rem;
+	font-weight: bold;
+}
+.fuwu_box li .right{
+	font-size: 0.14rem;
+	color: #666;
+	float: right;
+	line-height: 0.37rem;
+	font-weight: bold;
+	margin-right: 0.09rem;
+}
+.dianhua_box{
+	overflow: hidden;
+	width: 3.9rem;
+	height: 1.27rem;
+	border-bottom: 0.01rem solid #e2e2e2;
+}
+.dianhua{
+	display: block;
+	font-size: 0.14rem;
+	font-weight: bold;
+	margin-top: 0.25rem;
+	color: #333;
+	text-align: center;
+}
+.shijian{
+	display: block;
+	font-size: 0.12rem;
+	font-weight: normal;
+	margin-top: 0.11rem;
+	color: #333;
+	text-align: center; 
+}
+.di{
+	width: 100%;
+	height: 1.42rem;
+	overflow: hidden;
+}
+.map{
+	display: block;
+	float: left;
+	margin-top: 0.14rem;
+	margin-left: 0.15rem;
+	font-size: 0.12rem;
+	color: #aeaeae;
+}
+.que{
+	display: block;
+	float: left;
+	margin-top: 0.14rem;
+	margin-left: 0.12rem;
+	font-size: 0.12rem;
+	color: #aeaeae;
+}
+.biao1{
+	display: block;
+	font-size: 0.12rem;
+	color: #aeaeae;
+	margin-top: 0.36rem;
+	margin-left: 0.12rem;
+}
+.biao2{
+	display: block;
+	font-size: 0.12rem;
+	color: #aeaeae;
+	margin-top: 0.1rem;
+	margin-left: 0.12rem;
+}
+.share{
+	width: 1.74rem;
+	height: 0.31rem;
+	margin-left: 0.17rem;
+	margin-top: 0.17rem;
+	display: block;
+	float: left;
+
+}
+.share a{
+	float: left;
+	margin-right: 0.15rem;
+	display: block;
+	background: red;
+}
+.share img{
+	width: 0.32rem;
+	height: 0.31rem;
+	float: left;
+}
+.share a:last-child{
+	margin-right: 0;
+}
